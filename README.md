@@ -97,7 +97,7 @@ REST API endpoint for events:
 http://0.0.0.0:8080/api/events
 ````
 Example Event
-
+````
 {
   "ip": "192.168.1.105",
   "path": "/admin",
@@ -109,4 +109,23 @@ Example Event
 }
 
 ````
+Extensibility
+
+VantaGrid can be extended with:
+
+Custom scoring rules to detect new attack patterns
+Integration with SIEM or monitoring systems
+Persistent storage (SQLite, PostgreSQL, etc.)
+Additional simulated endpoints for realistic honeypot deployment
+Deployment Considerations
+Deploy on isolated or controlled networks to avoid accidental exposure
+Monitor memory usage and request volume under high traffic
+Only expose simulated endpoints intentionally
+License
+
+MIT License — suitable for research, internal labs, or penetration testing purposes.
+
+Disclaimer
+
+VantaGrid is intended for controlled and authorized environments. Misuse outside these contexts may violate laws and regulations.
 
