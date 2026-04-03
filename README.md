@@ -142,8 +142,6 @@ VantaGrid can be extended with:
 
 ---
 
----
-
 ## Disclaimer
 
 VantaGrid is intended for controlled and authorized environments. Misuse outside these contexts may violate laws and regulations.
