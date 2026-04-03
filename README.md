@@ -1,5 +1,6 @@
 <!-- Activity / Pulse -->
 <img src="https://img.icons8.com/ios-filled/500/000000/activity-history.png" width="200"/>
+
 # VantaGrid
 
 VantaGrid is an advanced HTTP honeypot and threat monitoring framework built in Go. It is designed for security researchers, organizations, and penetration testers to capture and analyze unauthorized web traffic in real time. VantaGrid records request metadata, fingerprints clients, scores suspicious behavior, and provides a REST API for analysis.
