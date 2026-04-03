@@ -64,19 +64,14 @@ VantaGrid/
 ```
 Incoming HTTP Request
         │
-        ▼
 http.HandleFunc("/") → HTTPHandler.Handle()
         │
-        ▼
 Compute client fingerprint (SHA1)
         │
-        ▼
 Compute threat score based on method, path, and User-Agent
         │
-        ▼
 Store event in memory (thread-safe)
         │
-        ▼
 Return static HTTP response
 ```
 
