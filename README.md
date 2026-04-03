@@ -142,10 +142,6 @@ VantaGrid can be extended with:
 
 ---
 
-## License
-
-MIT License — suitable for research, internal labs, or penetration testing purposes.
-
 ---
 
 ## Disclaimer
